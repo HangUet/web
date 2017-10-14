@@ -4,6 +4,13 @@
   <!-- Main Navbar-->
   <header class="header">
     <nav class="navbar">
+      <!-- Search Box-->
+      <div class="search-box">
+        <button class="dismiss"><i class="icon-close"></i></button>
+        <form id="searchForm" action="#" role="search">
+          <input type="search" placeholder="Tìm kiếm..." class="form-control">
+        </form>
+      </div>
       <div class="container-fluid">
         <div class="navbar-holder d-flex align-items-center justify-content-between">
           <!-- Navbar Header-->
@@ -26,11 +33,10 @@
           </div>
           <!-- Navbar Menu -->
           <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center" style="padding-right: 0">
+
             <!-- Search-->
             <li class="nav-item d-flex align-items-center">
-              <a id="search" href="#">
-                <i class="icon-search"></i>
-              </a>
+              <a id="search" href="#"><span class="glyphicon glyphicon-search"></span></a>
             </li>
             <!-- Logout    -->
             <li class="nav-item">
@@ -56,15 +62,11 @@
         </div>
       </div>
       <!-- Sidebar Navidation Menus-->
-      <ul class="list-unstyled">
-        <li class="active"> <a href="#"><i class="icon-home"></i>Trang chủ</a></li>
-        <li> 
-          <a href="#"> 
-            <i class="icon-interface-windows"></i>
-            Đăng nhập
-          </a>
-        </li>
-      </ul>
+        <ul class="list-unstyled">
+          <li class="active"> <a href="#"><i class="icon-home"></i>Trang chủ</a></li>
+          <li><a href="#"><i class="icon-interface-windows"></i>Đăng nhập</a></li>
+        </ul>
+
     </nav>
     <div class="content-inner">
       @yeild('user_home')
@@ -82,6 +84,9 @@
         </div>
       </section>-->
       <!-- Page Footer-->
+      @yield('user_home')
+      <!-- Page Footer -->
+
       <footer class="main-footer">
         <div class="container-fluid">
           <div class="row">
