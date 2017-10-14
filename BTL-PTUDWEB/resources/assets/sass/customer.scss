@@ -1,0 +1,56 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+nav.side-navbar {
+  position: fixed;
+  background: #393836;
+  color: #fff;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+nav.side-navbar {
+  text-align: left;
+  color: #fff;
+}
+
+nav.navbar {
+  background: #393836;
+  padding: .8rem 0;
+}
+
+nav.navbar .container-fluid {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    padding: 0 50px;
+  }
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px)
+{
+  .align-items-md-center {
+    -webkit-box-align: center!important;
+    -webkit-align-items: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+  }
+}
+
+

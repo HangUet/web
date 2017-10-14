@@ -1,0 +1,33 @@
+/* your styles go here */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.d-flex {
+    display: flex!important;
+}
+
+@media (min-width: 768px) {
+  .align-items-md-center {
+    -webkit-box-align: center!important;
+    align-items: center!important;
+  }
+}
+
+@media (min-width: 768px){
+  .flex-md-row {
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    -webkit-flex-direction: row!important;
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+  }
+}
+
+.navbar-holder {
+  width: 100%;
+}
+
+.section {
+  padding: 50px 0;
+}

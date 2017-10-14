@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/header_login', function () {
+    return view('layouts.header_login');
+});
+Route::get('/sidebar', function () {
+    return view('layouts.sidebar');
+});
+Route::get('/page', function () {
+    return view('layouts.page');
+});
