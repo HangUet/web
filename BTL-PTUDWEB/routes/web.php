@@ -27,3 +27,6 @@ Route::get('/sidebar', function () {
 Route::get('/page', function () {
     return view('layouts.page');
 });
+Route::get('/user_home', function () {
+    return view('users.home_content');
+});
