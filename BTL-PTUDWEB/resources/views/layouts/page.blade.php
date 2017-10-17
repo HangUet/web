@@ -9,7 +9,7 @@
           <!-- Navbar Header-->
           <div class="navbar-header">
             <!-- Navbar Brand -->
-            <a href="#" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
               <div class="brand-text brand-big hidden-lg-down">
                 <strong>UET GRAM</strong>
               </div>
@@ -67,20 +67,18 @@
       </ul>
     </nav>
     <div class="content-inner">
-      @yeild('user_home')
-      <!--@extends('layouts.app')-->
       <!-- Page Header-->
-      <!--<header class="page-header">
+      <header class="page-header">
         <div class="container-fluid">
           <h2 class="no-margin-bottom">Forms</h2>
         </div>
-      </header>-->
+      </header>
       <!-- section -->
-      <!--<section class="forms">
+      <section class="forms">
         <div class="container-fuild" id="container" style="min-height: 400px">
 
         </div>
-      </section>-->
+      </section>
       <!-- Page Footer-->
       <footer class="main-footer">
         <div class="container-fluid">

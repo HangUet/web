@@ -32,7 +32,7 @@
       @yield('header_login')
       <!--@yield('sidebar')-->
       @yield('content')
-      @yield('user_home')
+      
     </div>
 
       <!-- Scripts -->
