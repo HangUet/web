@@ -30,6 +30,5 @@
     </div>
       <!-- Scripts -->
     <script src="{{ asset('js/customer.js') }}"></script>
-    
   </body>
 </html>
