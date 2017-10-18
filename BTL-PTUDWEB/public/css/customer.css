@@ -44,4 +44,18 @@ nav.navbar .container-fluid {
   }
 }
 
+.input-group, .form-control {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+
+.input-group-btn {
+  display: table-cell;
+}
+
+ .input-group-btn {
+    width: 1%;
+    vertical-align: middle;
+}
 
