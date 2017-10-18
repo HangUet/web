@@ -21,12 +21,19 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/header_login', function () {
     return view('layouts.header_login');
 });
-Route::get('/sidebar', function () {
-    return view('layouts.sidebar');
+
+// Route::get('/page', function () {
+//     return view('layouts.page');
+// });
+Route::get('/user_home', function () {
+    return view('users.home_content');
 });
+<<<<<<< HEAD
 Route::get('/page', function () {
     return view('layouts.page');
 });
 Route::get('/user_home', function () {
     return view('users.home_content');
 });
+=======
+>>>>>>> create template admin - user <continue>
