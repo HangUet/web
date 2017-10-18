@@ -25,13 +25,10 @@
   </head>
   <body>
     <div id="app">
-      @yield('page')
       @yield('content')
-      @yield('user_home')
+      @yield('page')
     </div>
-
       <!-- Scripts -->
     <script src="{{ asset('js/customer.js') }}"></script>
-    
   </body>
 </html>

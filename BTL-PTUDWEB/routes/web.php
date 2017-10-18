@@ -28,12 +28,3 @@ Route::get('/header_login', function () {
 Route::get('/user_home', function () {
     return view('users.home_content');
 });
-<<<<<<< HEAD
-Route::get('/page', function () {
-    return view('layouts.page');
-});
-Route::get('/user_home', function () {
-    return view('users.home_content');
-});
-=======
->>>>>>> create template admin - user <continue>
